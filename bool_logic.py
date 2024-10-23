@@ -3,13 +3,13 @@ class Person():
         return self.age>=18
     
 toto = Person()
-toto.age=6
+toto.age=20
 titi= Person()
 titi.age=15
 nana=Person()
-nana.age=16
+nana.age=56
 nono=Person()
-nono.age=10
+nono.age=42
 
 a=toto.is_major()
 b= not(titi.is_major())
@@ -43,4 +43,18 @@ print("s4=",s4)
 print("------------------")
 print("s5=",s5)
 print("s6=",s6)
+
+
+s1 or (s2 and s3) == (s1 or s2) and (s1 or s3)
+s1 and (s2 or s3) == (s1 and s2) or (s1 and s3)
+s1 and s1 or s2 ==s1
+s1 or (s1 and s2)==s1
+s1 and not(s1) or s2 == s1 
+s1 and s2 or(not s1 and s2)
+
+
+s1 and not s1 == False
+s1 or not s1 == True
+
+
 
