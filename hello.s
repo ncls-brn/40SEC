@@ -5,7 +5,7 @@ _start:
 	mov rax, 1
 	mov rdi, 1
 	lea rsi, [hello]
-	mov rdx, 14
+	mov rdx, 26
 	syscall
 	
 	mov rax, 60
@@ -13,4 +13,4 @@ _start:
 	syscall
 
 hello:
-	.asciz "Hello, world!\n"	
+	.asciz "Hello, world! world hello!\n"	
