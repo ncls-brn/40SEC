@@ -43,6 +43,7 @@ print("s4=",s4)
 print("------------------")
 print("s5=",s5)
 print("s6=",s6)
+print("------------------")
 
 
 s1 or (s2 and s3) == (s1 or s2) and (s1 or s3)
@@ -57,4 +58,30 @@ s1 and not s1 == False
 s1 or not s1 == True
 
 
+"""
+s1=
+a or b
+a = 1, b = 1.
+Donc, a or b = 1.
+a and (a or b) = 1 and 1 = 1 (vrai).
+
+s2= (a or b) and ((not a) or b) = 1 and 1 = 1 (vrai).
+
+s3= (a and (not b) or c) and (a or (not b)) = 0 and 1 = 0 (faux).
+s4= 
+a = 1, b = 1.
+Donc, 1 and 1 = 1.
+s4 = 1(vrai)
+s5= (a or b or c) and (not a or b or c) or (a and b) or c and d = 1 and 1 or 1 or 0 = 1.
+s6 = 1 or 1 or 1 = 1.
+
+f = 1 (vrai)
+g = 1 (vrai)
+s1 = 1 (vrai)
+s2 = 1 (vrai)
+s3 = 0 (faux)
+s4 = 1 (vrai)
+s5 = 1 (vrai)
+s6 = 1 (vrai)
+"""
 
