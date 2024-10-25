@@ -1,4 +1,4 @@
 
 
-
-echo "Hello, $1!"
+greeting="Hello"
+echo "$greeting, $1!"
