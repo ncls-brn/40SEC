@@ -7,7 +7,7 @@ url="https://readi.fi/sitemap.xml"
 pages_return=$(curl -s "$url")
 
 # Extraire les liens qui commencent par https://readi.fi/asset et les stocker dans un fichier
-echo "$pages_return" | grep -o 'https://readi\.fi/asset[^"<]*' > urlscrap.txt
+echo "$pages_return" | grep -o 'https://readi\.fi/asset[^"<]*' | sort -u > urlscrap.txt
 
 # Compter et afficher le nombre de lignes (liens) dans urlscrap.txt
 line_count=$(wc -l < urlscrap.txt)
