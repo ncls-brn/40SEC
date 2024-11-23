@@ -1,13 +1,33 @@
-import signal
-import time
+import multiprocessing
+import os
 
 
-def signal_handler(signum, frame):
-    print(f"Signal ID reçu: {signum}, Frame: {frame}")
+manager = multiprocessing.Manager()
+numbers = manager.list([1, 2, 3])
 
-signal.signal(signal.SIGINT, signal_handler)
+def print_hello():
+    for _ in range(10):
+        print(numbers[:])  
+        print(f"Hello from process {os.getppid()}")
+        numbers.append(4)
 
-time.sleep(5)
+def print_hi():
+    for _ in range(10):
+        numbers[0] = 5
+        numbers[1] = 6
+        numbers[2] = 7
+        print(numbers[:])  
+        print(f"Hi from process {os.getppid()}")
+
+p1 = multiprocessing.Process(target=print_hello)
+p2 = multiprocessing.Process(target=print_hi)
 
 
+p1.start()
+p2.start()
 
+
+p1.join()
+p2.join()
+
+print("Programme terminé.")
