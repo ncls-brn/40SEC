@@ -1,5 +1,8 @@
 https://readi.fi/asset/
+https://readi.fi/asset/carbon-credit-vcs-875-florestal-santa-maria-project-by-florestal-santa-maria/
+https://readi.fi/asset/commodities-paxg-pax-gold-by-paxos/
 https://readi.fi/asset/commodities-tgold-tgold-by-aurus/
+https://readi.fi/asset/commodity-xaut-tether-gold-by-tether/
 https://readi.fi/asset/debt-ar180-arjan-capital-by-arjan-capital/
 https://readi.fi/asset/debt-b2c2-20241118-1-1-month-b2c2-corporate-bond-by-b2c2/
 https://readi.fi/asset/debt-fl180-fluna-by-fluna/
@@ -7,6 +10,7 @@ https://readi.fi/asset/debt-mplhycweth1-maple-direct-high-yield-corporate/
 https://readi.fi/asset/debt-mplohyusdc1-maple-direct-high-yield-corporate/
 https://readi.fi/asset/debt-ns3-new-silver-series-3-by-new-silver/
 https://readi.fi/asset/debt-sg10green-societe-generale-green-positive-impact-senior-preferred-notes-by-societe-generale/
+https://readi.fi/asset/debt-xs2615318016-caisse-des-depots-333-emtn-7nov2034-by-caisse-des-depots/
 https://readi.fi/asset/equity-share-afs-alan-frei-by-alan-frei/
 https://readi.fi/asset/equity-share-arts-artleasing-shares-by-art-leasing-invest/
 https://readi.fi/asset/equity-share-axras-axelra-tech-venture-building-shares-by-axelra-tech-venture/
@@ -28,6 +32,7 @@ https://readi.fi/asset/fund-ousg-ondo-short-term-us-government-treasuries-by-ond
 https://readi.fi/asset/fund-rwa007-monetalis-clydesdale-by-james-asset-ptc-limited/
 https://readi.fi/asset/fund-rwa015-blocktower-andromeda-by-taco-foundation/
 https://readi.fi/asset/fund-tfund-cogito-tfund-by-cogito/
+https://readi.fi/asset/fund-umint-ubs-usd-money-market-investment-fund-token-by-ubs-asset-mangement/
 https://readi.fi/asset/fund-ustbl-spiko-dollar-by-twenty-first-capital/
 https://readi.fi/asset/fund-ustb-superstate-short-duration-us-government-securities-fund-by-superstate/
 https://readi.fi/asset/note-alt2612-mikro-kapital-alternative-by-mikro-kapital/
@@ -38,6 +43,7 @@ https://readi.fi/asset/public-equity-bcspx-backed-cspx-core-sp-500-bcspx-by-back
 https://readi.fi/asset/stablecoin-arcbeglf-blackrock-ics-euro-government-liquidity-fund-by-blackrock/
 https://readi.fi/asset/stablecoin-fobxx-franklin-onchain-us-government-mo/
 https://readi.fi/asset/stablecoin-tbill-openeden-tbill-by-hill-lights-int/
+https://readi.fi/asset/stablecoin-usdl-lift-dollar-by-paxos/
 https://readi.fi/asset/stablecoin-usdy-ondo-us-dollar-yield-token-by-ondo-finance/
 https://readi.fi/asset/stablecoin-usty-usty-yieldteq-by-yieldteq/
 https://readi.fi/asset/stablecoin-usyc-hashnote-us-yield-coin-by-hashnote/
@@ -54,6 +60,7 @@ https://readi.fi/asset/structured-product-intc-intel-corp-swarm-by-swarm/
 https://readi.fi/asset/structured-product-mmmeur-moreliquid-money-market-fund-by-moreliquid-management/
 https://readi.fi/asset/structured-product-msft-microsoft-corporation-swarm-by-swarm/
 https://readi.fi/asset/structured-product-mstr-microstrategy-inc-class-a-swarm-by-swarm/
+https://readi.fi/asset/structured-product-mtbill-midas-mtbill-by-midas/
 https://readi.fi/asset/structured-product-nvda-nvidia-corp-swarm-by-swarm/
 https://readi.fi/asset/structured-product-tbonds01-ishares-treasury-bond-0-1yr-ucits-etf-tbonds01-swarm-by-swarm/
 https://readi.fi/asset/structured-product-tbonds13-ishares-treasury-bond-1-3yr-ucits-etf-tbonds13-swarm-by-swarm/

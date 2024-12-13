@@ -13,4 +13,4 @@ _start:
     syscall                
 
 hello:
-    .asciz "Hello, world! world hello!\n"
+    .asciz "Hello, world! world hello\n"

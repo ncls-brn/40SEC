@@ -1,0 +1,23 @@
+
+// pour installer nasm
+sudo apt install nasm
+
+
+
+// pour assembler le fichier source 
+nasm -f elf64 -o tp_user.o tp_user.asm
+
+
+
+//lier pour créer un executable
+ld -o tp_user tp_user.o
+
+
+
+// pour lancer le fichier 
+./tp_user
+
+
+//si les permissions ne sont pas bonnes lancer la commande
+//L'option x définit spécifiquement l'autorisation d'exécution sur un fichier, ce qui permet à lui être exécuté en tant que programme.
+chmod +x 
