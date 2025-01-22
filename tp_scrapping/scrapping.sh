@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 
 url="https://readi.fi/sitemap.xml"

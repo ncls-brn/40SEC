@@ -1,3 +1,5 @@
+#!/bin/bash
+
 renamefiles() {
 	#for i in ./$from
 do

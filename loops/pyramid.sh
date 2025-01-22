@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Entrez le nombre d'étages pour la pyramide : " n
 
 for (( i=1; i<=n; i++ ))

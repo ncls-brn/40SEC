@@ -1,0 +1,6 @@
+# Makefile pour dire bonjour
+
+.PHONY: bonjour
+
+bonjour:
+	@echo "Bonjour à tous"
