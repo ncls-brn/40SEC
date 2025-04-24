@@ -10,6 +10,7 @@ do
     done
 
     for (( k=1; k<=(2*i-1); k++ ))
+    # for (( k=0; k<2*i; k++ )) est peut être plus clair
     do
         echo -n "*"
     done

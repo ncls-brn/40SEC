@@ -18,6 +18,12 @@ INSERT INTO TITLE_NAME
 EOF
 }
 
+# En passant les valeurs directement dans la commande sqlite3 en concaténant les variables,
+# cela ouvre de potentielles failles de sécurité (injection SQL).
+# Typiquement si $3 est égal à "'); DROP TABLE TITLE_NAME; --",
+# Il est préférable d'utiliser des paramètres pour éviter cela.
+# "INSERT INTO TITLE_NAME (URL, title, description) VALUES (?, ?, ?);" "$1" "$2" "$3"
+
 function scraping() {
     pages_return=$(curl -s "$1")
     
