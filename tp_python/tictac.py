@@ -2,6 +2,7 @@ import random
 import sys
 
 board=[i for i in range(0,9)]
+# board = list(range(9))
 player, computer = '',''
 
 moves=((1,3,7,9),(5,),(2,4,6,8))
@@ -9,6 +10,8 @@ moves=((1,3,7,9),(5,),(2,4,6,8))
 winners=((0,1,2),(3,4,5),(6,7,8),(0,3,6),(1,4,7),(2,5,8),(0,4,8),(2,4,6))
 
 tab=range(1,10)
+
+# Les nombres sortent un peu de nulle part, c'est correct mais compliqué à modifier en cas de besoin.
 
 def print_board():
     x = 1
@@ -90,6 +93,8 @@ def computer_move():
 
 def space_exist():
     return board.count('X') + board.count('O') != 9
+# return not all(block in ["X", "O"] for block in board)
+
 
 player, computer = select_char()
 print('Player  [%s] et ordinateur est [%s]' % (player, computer))
@@ -98,6 +103,7 @@ while space_exist():
     print_board()
     print('Choisi! [1-9] : ', end='')
     move = int(input())
+    # move = int(input('Choisi! [1-9] : '))
     moved, won = make_move(board, player, move)
     if not moved:
         print('<Chiffre invalide !>')

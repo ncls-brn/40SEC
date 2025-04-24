@@ -65,3 +65,7 @@ replace_with_excl:
   mov rax, 60             ; 
   mov rdi, 0            ; 
   syscall                 ; 
+
+
+
+; Vous pouvez créer des fonctions (write_newline, get_input...) pour clarifier le code (et enlever les commentaires)
